@@ -15,7 +15,7 @@ fieldset {
     box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
     margin: 0px;
 }
-.nex {
+.step {
     display: flex;
     position: relative;
     left: 730px;
@@ -32,7 +32,7 @@ fieldset {
     background-color: blue;
     margin: 0px;
 }
-.nex:hover {
+.step:hover {
     background-color: #005ce6;
     margin: 0px;
 }
@@ -128,4 +128,8 @@ h1 {
 }
 .welh {
     font-style: unset;
+}
+
+.step-container {
+    display: flex;
 }
