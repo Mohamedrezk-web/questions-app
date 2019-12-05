@@ -1,0 +1,131 @@
+/* index.html */
+.F1 {
+    background: rgba(189, 178, 230, 0.486);
+    margin: 0px;
+}
+fieldset {
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    left: 270px;
+    background: rgba(68, 68, 71, 0.623);
+    border-style: solid;
+    border-image: round;
+    width: 800px;
+    box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    margin: 0px;
+}
+.nex {
+    display: flex;
+    position: relative;
+    left: 730px;
+    bottom: 25px;
+    border: 1px solid #f9f68a;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: #ffffff;
+    background-color: blue;
+    margin: 0px;
+}
+.nex:hover {
+    background-color: #005ce6;
+    margin: 0px;
+}
+
+.ques {
+    position: relative;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 40px;
+    bottom: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    left: 10px;
+    position: relative;
+    margin: 0px;
+}
+.answer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0px;
+}
+.radi {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    font-family: Georgia;
+    font-size: 20px;
+    margin: 0px;
+}
+/* Form.html */
+.container {
+    width: 750px;
+    height: 250px;
+    background: #d4d4aa;
+    text-align: center;
+}
+.info1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0px;
+    height: 15px;
+    width: 150px;
+    margin: auto;
+    top: 60px;
+}
+.info2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0px;
+    height: 15px;
+    width: 150px;
+    margin: auto;
+    top: 70px;
+}
+.start {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    left: 270px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.FL {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.F2 {
+    margin: 0px auto;
+    padding: 100px;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    background: #997a00;
+}
+.FL2 {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    left: 25px;
+}
+.welh {
+    font-style: unset;
+}
