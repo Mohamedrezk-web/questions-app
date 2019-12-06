@@ -67,6 +67,12 @@ function initApp() {
 initApp();
 
 function nextQuestion() {
+    /*  for (var answers = 0; answers < array.length; answers++) {
+        if (input[i].answer.checked === true) {
+        }
+        
+    }
+    */
     document.querySelector(".ques").textContent = questions[i].question;
     document.querySelector("#questionNumber").textContent = i + 1;
 
@@ -104,15 +110,20 @@ function storeUserAnswer() {
 }
 
 nextButton.addEventListener("click", function() {
-    backButton.style.display = "block";
-    if (i < questions.length - 1) {
-        i = ++i;
-        storeUserAnswer();
-        nextQuestion();
-    }
-    if (i === questions.length - 1) {
-        nextButton.style.display = "none";
-        finishButton.style.display = "block";
+    if (document.querySelector('input[name="lady"]:checked')) {
+        backButton.style.display = "block";
+
+        if (i < questions.length - 1) {
+            i = ++i;
+            storeUserAnswer();
+            nextQuestion();
+        }
+        if (i === questions.length - 1) {
+            nextButton.style.display = "none";
+            finishButton.style.display = "block";
+        }
+    } else {
+        alert("you must write some thing");
     }
 });
 
@@ -130,15 +141,18 @@ backButton.addEventListener("click", function() {
 });
 
 document.querySelector(".finish").addEventListener("click", function() {
-    storeUserAnswer();
+    if (document.querySelector('input[name="lady"]:checked')) {
+        storeUserAnswer();
 
-    var result = 0;
-    for (let index = 0; index < userAnswers.length; index++) {
-        const element = userAnswers[index];
-        if (element.answerId == element.correctAnswerId) {
-            ++result;
+        var result = 0;
+        for (let index = 0; index < userAnswers.length; index++) {
+            const element = userAnswers[index];
+            if (element.answerId == element.correctAnswerId) {
+                ++result;
+            }
         }
+        window.location.href = "end.html";
+    } else {
+        alert("you must write some thing");
     }
-
-    console.log(result);
 });
