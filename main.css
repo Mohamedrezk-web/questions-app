@@ -16,6 +16,8 @@ fieldset {
     margin: 0px;
 }
 .step {
+    text-decoration-color: white;
+    text-decoration-style: none;
     display: flex;
     position: relative;
     left: 730px;
@@ -26,7 +28,7 @@ fieldset {
     font-family: arial, helvetica, sans-serif;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: -1px -1px 0 rgba(59, 40, 40, 0.3);
     font-weight: bold;
     color: #ffffff;
     background-color: blue;
@@ -101,6 +103,8 @@ h1 {
     left: 270px;
     top: 100px;
     border-radius: 5px;
+    text-decoration-color: white;
+    text-decoration: none;
 }
 
 .FL {
@@ -132,4 +136,38 @@ h1 {
 
 .step-container {
     display: flex;
+}
+/*-------------------------------------------*/
+.F3 {
+    margin: 0px auto;
+    padding: 100px;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    background-color: gray;
+}
+.containere {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+.score {
+    display: block;
+    padding: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.again {
+    width: 80px;
+    height: 20px;
+}
+.loginAgain {
+    width: 80px;
+    height: 20px;
+}
+.style {
+    text-decoration-color: white;
+    text-decoration: none;
 }
